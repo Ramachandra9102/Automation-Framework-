@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 50.256 s <<< FAILURE! - in TestSuite
+com.Checkedin.testcases.Tc_AddNewCustomer_004.Emailreport  Time elapsed: 4.544 s  <<< FAILURE!
+java.lang.RuntimeException: 
+javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.FileNotFoundException: C:\Users\Ramachandra Rao\eclipse-workspace\CheckedinCareNewCode\Checkedincare\Extent Report\Test-Report*.html (The filename, directory name, or volume label syntax is incorrect)
+Caused by: javax.mail.MessagingException: IOException while sending message
+Caused by: java.io.FileNotFoundException: C:\Users\Ramachandra Rao\eclipse-workspace\CheckedinCareNewCode\Checkedincare\Extent Report\Test-Report*.html (The filename, directory name, or volume label syntax is incorrect)
+
